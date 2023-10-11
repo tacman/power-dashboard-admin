@@ -21,7 +21,7 @@
         "ext-mbstring": "*",
         "appaydin/pd-activity": "^1.0",
         "appaydin/pd-api": "^1.0",
-        "appaydin/pd-menu": "3.*",
+        "appaydin/pd-menu": "^3.0",
         "appaydin/pd-user": "^3.0",
         "appaydin/pd-widget": "3.*",
         "beberlei/doctrineextensions": "1.*",
@@ -29,7 +29,7 @@
         "doctrine/doctrine-migrations-bundle": "^3.1",
         "doctrine/orm": "^2.8",
         "gregwar/image": "^2.1",
-        "knplabs/knp-paginator-bundle": "dev-master",
+        "knplabs/knp-paginator-bundle": "*",
         "sensio/framework-extra-bundle": "5.*",
         "sonata-project/exporter": "^2.6",
         "symfony/asset": "5.*",
@@ -38,11 +38,11 @@
         "symfony/flex": "1.*",
         "symfony/form": "5.*",
         "symfony/framework-bundle": "5.*",
-        "symfony/intl": "5.3.*",
+        "symfony/intl": "^5.3",
         "symfony/mailer": "5.*",
         "symfony/messenger": "5.*",
         "symfony/monolog-bundle": "3.*",
-        "symfony/runtime": "5.3.*",
+        "symfony/runtime": "^5.3",
         "symfony/security-bundle": "5.*",
         "symfony/translation": "5.*",
         "symfony/twig-bundle": "5.*",
@@ -52,18 +52,25 @@
         "zenstruck/schedule-bundle": "^1.1"
     },
     "require-dev": {
-        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^9.5",
+        "symfony/browser-kit": "^5.3",
+        "symfony/css-selector": "^5.3",
         "symfony/debug-bundle": "5.*",
         "symfony/maker-bundle": "^1.0",
-        "symfony/profiler-pack": "^1.0",
-        "symfony/test-pack": "^1.0"
+        "symfony/phpunit-bridge": "^6.3",
+        "symfony/stopwatch": "^5.3",
+        "symfony/web-profiler-bundle": "^5.3"
     },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "symfony/flex": true,
+            "symfony/runtime": true
+        }
     },
     "autoload": {
         "psr-4": {
@@ -108,8 +115,8 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
-            "require": "5.3.*"
+            "allow-contrib": true,
+            "require": "^5.3"
         }
     }
 }
