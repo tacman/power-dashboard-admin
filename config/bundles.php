@@ -12,7 +12,6 @@ return [
     Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
     Symfony\WebpackEncoreBundle\WebpackEncoreBundle::class => ['all' => true],
     Doctrine\Bundle\DoctrineBundle\DoctrineBundle::class => ['all' => true],
-    Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Zenstruck\ScheduleBundle\ZenstruckScheduleBundle::class => ['all' => true],
     Pd\WidgetBundle\PdWidgetBundle::class => ['all' => true],
     Pd\MenuBundle\PdMenuBundle::class => ['all' => true],
