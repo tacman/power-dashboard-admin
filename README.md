@@ -1,3 +1,7 @@
+
+Not worth the effort, depends on pd/api which is Symfony 5, hard to update to assetmapper.
+
+
 ![page-login](https://user-images.githubusercontent.com/8649070/120119713-efae3900-c1a1-11eb-88cf-481afb058b07.png)
 
 ![page-admin](https://user-images.githubusercontent.com/8649070/120119714-f177fc80-c1a1-11eb-8853-3d60b5c1c4ed.png)
